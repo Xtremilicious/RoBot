@@ -1,0 +1,99 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: "Roboto";
+    width: fit-content;
+}
+.container-fluid{
+    height: 100vh;
+    width: 100vw !important;
+}
+
+.header{
+    height:30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.header .title{
+    font-size: 20vh;
+
+}
+.header .sub-title{
+    font-size: 4vh;
+}
+
+
+.main { 
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    justify-content: center;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    font-size: 1.2rem;
+}
+#input { 
+    border: none;
+     outline: none;
+     font-size: 1.2rem;
+     width: 10rem;
+     background: transparent;
+}
+.bar{
+    font-size: 1.2rem;
+    background: transparent;
+    width: fit-content;
+    display: flex;
+    align-self: center;
+}
+.talk{
+    justify-self: flex-end;
+    align-items: flex-end;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.user-message{
+    background: #CEF6E3;
+    border-radius: 2rem 2rem 0 2rem;
+    width: fit-content;
+    padding:1rem;
+    align-self: flex-end;
+    text-align:left;
+    
+}
+.asna-message{
+    background: #cddbff;
+    align-self: flex-start;
+    border-radius: 2rem 2rem 2rem 0;
+    width: fit-content;
+    padding:1rem;
+    text-align:left;
+    
+}
+.supported{
+    text-decoration: none !important;
+    color: #2175fb!important;
+}
+.supported:hover{
+    color: #2175fb;
+}
+.art{
+margin:0;
+}
+.art-frame{
+    baCKGROUND: RED;
+}
+.ro{
+    display: flex;
+    flex-direction: row;
+}
+.profile{
+    width: 3.7rem;
+    height: 3.7rem;
+    align-self: flex-end;
+}
